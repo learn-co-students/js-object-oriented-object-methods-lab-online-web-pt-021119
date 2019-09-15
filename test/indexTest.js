@@ -49,8 +49,8 @@ describe('boardMembers', function() {
     before(() => {
       polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
     })
-    it('returns "You will see great things from Scuber."', function() {
-      expect(polishedBoardMember.releasePressStatement()).to.equal("You will see great things from Scuber.")
+    it('returns "You will see great things from Mr. Polished."', function() {
+      expect(polishedBoardMember.releasePressStatement()).to.equal("You will see great things from Mr. Polished.")
     })
   })
 
@@ -64,4 +64,3 @@ describe('boardMembers', function() {
     })
   })
 })
-
